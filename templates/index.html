@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>"The Price Is Right"</h1>
+</head>
+<body>
+    <form action="#" method="post">
+        <p>Fill your preferences below and estimate your rent price</p>
+        <h2>Beds</h2>
+        <p><input type="text" name="beds"></p>
+        <h2>Baths</h2>
+        <p><input type="text" name="baths"></p>
+        <h2>Square Feet</h2>
+        <p><input type="text" name="square feet"></p>
+        <h2>Library  (0 for absent, 1 for present)</h2>
+        <p><input type="text" name="library"></p>
+        <h2>Fitness Center (0 for absent, 1 for present) </h2>
+        <p><input type="text" name="fitness center"></p>
+        <h2>Direction</h2>
+        <p><input type="text" name="direction"></p>
+        <br>
+        <p><input class="btn btn-primary" type="submit" value="Submit"></p>
+    </form>
+    <div>
+        <h2>Estimated Rent: {{rent_value}}</h2>
+    </div>
+</body>
+</html>
